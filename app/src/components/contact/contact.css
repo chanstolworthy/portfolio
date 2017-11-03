@@ -1,0 +1,72 @@
+.contact-body{
+    background-image: url('./images/contact.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+
+}
+.contain-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 400px;
+    padding: 30px;
+    color:white;
+    font-family: helvetica;
+    font-weight: lighter;
+    
+}
+.contact-main-title{
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.contact-contact-icons{
+    margin: 10px;
+    height: 40px;
+}
+.contact-submit-email{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+
+}
+.contact-submit-name-email-cont input{
+margin: 10px;
+width: calc(200px - 40px);
+border: none;
+outline: none;
+background: transparent;
+color: white;
+border-bottom: 1px solid white;
+
+}
+.contact-submit-name-email-cont input::placeholder{
+    color: white;
+}
+.contact-submit-textarea textarea{
+margin: 10px;
+width: 346px;
+border: none;
+outline: none;
+background: transparent;
+color: white;
+border: 1px solid white;
+}
+.contact-submit-textarea textarea::placeholder{
+    color: white;
+}
+.contact-submit-button{
+    background: transparent;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 80px;
+    align-self: flex-end;
+    margin-right: 40px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}

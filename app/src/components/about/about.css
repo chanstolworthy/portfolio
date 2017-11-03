@@ -1,0 +1,50 @@
+.about-portfolio-image{
+    height: 175px;
+    margin: 10px;
+    margin-top: 20px;
+
+}
+.about-container{
+    padding: 0 140px 0 140px;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background: url('./images/about-gr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+  
+
+
+}
+.about-main-title{
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: helvetica;
+    color: white;
+}
+.about-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -55px;
+
+}
+.about-me-paragraph{
+    margin: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    width: 700px;
+    margin-left: 70px;
+}
+.about-me-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px 9;
+    padding-bottom: 40px;
+    align-self: flex-end;
+
+}

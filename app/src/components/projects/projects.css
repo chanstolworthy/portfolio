@@ -1,0 +1,75 @@
+.projects-project-item{
+    height: 250px;
+    width: 250px;
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    color: white;
+    cursor: pointer;
+}
+.projects-project1-item{
+    height: 250px;
+    width: 250px;
+    background: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    color: white;
+    cursor: pointer;
+}
+.projects-project2-item{
+    height: 250px;
+    width: 250px;
+    background: #7953F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    color: white;
+    cursor: pointer;
+}
+.projects-projects-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.projects-main-title{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: -50px;
+}
+.projects-body{
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects-body-layout{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.projects-m1-image{
+ width: 33% ;
+margin: 2px;
+}
+.projects-dialog-project1{
+
+}
+.projects-dialog-image-layout{
+margin: auto;
+}
+.project-project-tech{
+    font-style: italic;
+    margin: 10px 0 10px 0;
+}
+.project-project-description{
+    margin: 10px 0 10px 0;
+}
+.project-project-item-logo{
+    width: 210px;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://chandlerstolworthy.com",
+  "dependencies": {
+    "animated-scroll-to": "^1.1.7",
+    "gh-pages": "^1.0.0",
+    "gsap": "^1.20.3",
+    "material-ui": "^0.19.4",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-medium-image-zoom": "^2.0.5",
+    "react-scripts": "1.0.14",
+    "react-scrollable-anchor": "^0.5.0",
+    "scrollmagic": "^2.0.5",
+    "typed.js": "^2.0.6"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

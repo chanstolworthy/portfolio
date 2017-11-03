@@ -1,0 +1,93 @@
+.app-height{
+  height: 2300px;
+}
+.App{
+  background-image: url('./images/beach-gr.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.app-nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ height: 5vh;
+}
+.app-nav-item-white{
+color:white;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+.app-dashboard-down-arrow {
+  
+    height: 58px;
+    width: 58px;
+    margin:auto;
+    -webkit-animation: pulsate 2s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.0;
+    margin-top: 100px;
+ 
+}
+
+.app-down-arrow-container{
+  margin-top: 100px;
+    align-self: center;
+}
+
+.typed-strings{
+  color: white;
+  height: 35px;
+}
+.first-part{
+  display: flex;
+  color: white;
+width: 100%;
+margin: auto;
+justify-content: center;
+}
+.subtitle{
+  margin-right: 10px;
+}
+
+
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
+.app-main-title-lg-container{
+  height: calc(100vh - 5vh);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+
+
+}
+.app-main-title-lg{
+  font-weight: 900;
+  font-family: helvetica;
+  font-size: 100px;
+  text-align: left;
+  color: white;
+}
+.app-main-title-developer-container{
+  display: flex;
+}
+
+.app-main-title-layout{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 100px;
+}

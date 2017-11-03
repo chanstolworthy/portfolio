@@ -1,0 +1,36 @@
+.skills-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: url('./images/skills.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+.skills-main-title{
+    font-size: 30px;
+    margin: 20px;
+    margin-top: 50px;
+    color:white;
+    font-weight: lighter;
+    font-family: helvetica;
+}
+.app-skills-icons{
+    height: 50px;
+    margin: 10px;
+  }
+  .skills-icon-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: white;
+      font-weight: lighter;
+      margin: 25px;
+      font-size: 14px;
+  }
+  .skills-icon-list-layout{
+      display: flex;
+      flex-wrap: wrap;
+  }
